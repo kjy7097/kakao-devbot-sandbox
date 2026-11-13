@@ -7,3 +7,4 @@ input { flex: 1; padding: 8px; }
 button { padding: 8px 14px; }
 ul { padding-left: 20px; }
 li { padding: 4px 0; }
+.delete-btn { margin-left: 8px; padding: 2px 8px; font-size: 0.85rem; cursor: pointer; }
