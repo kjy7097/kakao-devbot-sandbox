@@ -6,4 +6,7 @@ form { display: flex; gap: 8px; }
 input { flex: 1; padding: 8px; }
 button { padding: 8px 14px; }
 ul { padding-left: 20px; }
+input[type="date"] { flex: none; }
 li { padding: 4px 0; }
+.due { margin-left: 8px; font-size: 0.85rem; color: #666; }
+.due.overdue { color: #d32f2f; font-weight: 600; }
