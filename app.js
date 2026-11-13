@@ -13,7 +13,9 @@ form.addEventListener("submit", (e) => {
   del.type = "button";
   del.className = "delete-btn";
   del.textContent = "삭제";
-  del.addEventListener("click", () => li.remove());
+  del.addEventListener("click", () => {
+    if (confirm("이 항목을 삭제할까요?")) li.remove();
+  });
   li.appendChild(span);
   li.appendChild(del);
   list.appendChild(li);
